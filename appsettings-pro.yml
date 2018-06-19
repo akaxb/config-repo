@@ -1,6 +1,0 @@
-env: pro
-spring:
-  application: {name: userservice}
-eureka:
-  client: {serviceUrl: 'http://192.168.2.20:8761/eureka/'}
-  instance: {preferIpAddress: true, ipAddress: 192.168.2.198, port: '5001', statusPageUrlPath: /api/values}
