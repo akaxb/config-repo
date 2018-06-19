@@ -1,0 +1,6 @@
+env: development
+spring:
+  application: {name: core_demo}
+eureka:
+  client: {serviceUrl: 'http://47.100.233.96:8761/eureka/'}
+  instance: {preferIpAddress: true,  port: '5000', statusPageUrlPath: '/api/values'}
