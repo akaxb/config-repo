@@ -4,3 +4,4 @@ spring:
 eureka:
   client: {serviceUrl: 'http://47.100.233.96:8761/eureka/'}
   instance: {preferIpAddress: true,  port: '5001', statusPageUrlPath: '/api/values'}
+ConnectionStrings: {MysqlConnection: mysql connection string, RedisConnection: redis connection string}
